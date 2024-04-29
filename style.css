@@ -159,7 +159,7 @@ section.sobre .flex{
     margin: 20px 0;
     text-align: justify;
 }
-.sobre .txt-sobre .btn-social button{
+.btn-social button{
     width: 60px;
     height: 60px;
     border:none;
@@ -211,4 +211,139 @@ section.portifolio .flex{
 }
 .overlay:hover{
     opacity: 0;
+}
+/*Seção formulario*/
+section.formulario{
+    padding: 80px 4%;
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+form input, form textarea{
+    width: 100%;
+    background-color: #242424;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+
+}
+form textarea{
+    resize: none;
+}
+form .btn-enviar{
+    margin-top: 0px;
+}
+form .btn-enviar input{
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s;
+}
+form .btn-enviar input:hover{
+    box-shadow: 0px 0px 8px #4b4b4bc9;
+    transform:scale(1.05);
+}
+
+/*Estilo do rodapé*/
+
+footer{
+    padding: 60px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+}
+footer .flex{
+    justify-content: space-between;
+}
+footer .line-footer{
+    padding: 20px 0;
+}
+footer .line-footer p i{
+    color: #00FF08;
+    font-size: 22px;
+}
+footer .line-footer p a{
+    color: white;
+}
+.boder{
+    border-top: 2px solid #00FF08;
+}
+
+@media screen and (max-width:1020px){
+    /* Classes gerais*/
+    .flex{
+        flex-direction: column;
+    }
+    h2.titulo{
+        font-size: 34px;
+        line-height: 30px;
+    }
+    /*cabeçalho*/
+    .menu-destop, .btn-contato{
+        display: none;
+    }
+
+    /*Topo do site*/
+    .topo-do-site h1{
+        font-size: 30px;
+    }
+    section.topo-do-site{
+        padding: 20px 8%;
+    }
+    .topo-do-site .img-topo-site img{
+        width: 100%;
+    }
+    section.topo-do-site .flex{
+        gap: 40px;
+    }
+
+    /*especialidade*/
+    section.especialidades{
+        padding: 40px 8%;
+    }
+
+    /*Sobre*/
+    section.sobre{
+        padding: 80px 8%; 
+    }
+    .sobre .txt-sobre h2{
+        font-size: 34px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .btn-social{
+        text-align: center;
+    }
+    .img-sobre img{
+      width: 100%;
+    }
+
+    /*Potifólio*/
+    section.portifolio{
+       padding: 80px 8%;
+    }
+    .img-post{
+        width: 100%;
+    }
+    section.portifolio .flex{
+        gap: 60px;
+    }
+
+    /*Rodapé*/
+
+    footer .flex{
+        flex-direction: column;
+        gap: 30px;
+    }
+    footer .line-footer{
+        text-align: center;
+    }
+
 }
