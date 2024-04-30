@@ -50,6 +50,7 @@ button:hover {
 header {
     padding: 25px 4%;
     background-color: rgba(255, 255, 255, 0.13);
+    border-radius: 5px;
 }
 
 header>.interface {
