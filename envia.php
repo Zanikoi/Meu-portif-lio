@@ -4,12 +4,15 @@
    $celular = addcslashes($_POST['celular']);
    $msg = addcslashes($_POST['msg']);
 
-   $para = "adam.andrade.2002@gmail.com";
+   $para = "adam.andrade@alu.ufc.br";
    $assunto = "Email do portifólio";
 
-   $corpo = "Nome: ".$nome."\n"."Email: ".$email."\n"."Celular: ".$celular."Mensagem: ".$msg;
+   $corpo = "Nome: ".$nome."\n".
+   "Email: ".$email."\n".
+   "Celular: ".$celular."\n".
+  "Mensagem: ".$msg;
 
-   $cabeca = "From: ".$email."\n"."Reply-to: ".$email."\n"."X=Mailer:PHP/".phpversion();
+   $cabeca = "From: adam.andrade.2002@gmail.com".$email."\n"."Reply-to: ".$email."\n"."X=Mailer:PHP/".phpversion();
 
    if(mail($para, $assunto, $corpo, $cabeca)){
         echo("E-mail enviado com sucesso");
