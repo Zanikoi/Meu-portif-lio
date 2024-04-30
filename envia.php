@@ -12,9 +12,9 @@
    $cabeca = "From: ".$email."\n"."Reply-to: ".$email."\n"."X=Mailer:PHP/".phpversion();
 
    if(mail($para, $assunto, $corpo, $cabeca)){
-        echo("E-mail enviado com sucesso")
+        echo("E-mail enviado com sucesso");
    }else {
-        echo("Houve um problema ao enviar o email")
+        echo("Houve um problema ao enviar o email");
    }
 
 ?>
