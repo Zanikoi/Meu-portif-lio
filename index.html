@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Google fontes-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <!--Google fontes-->
     <!--icones-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -14,24 +17,25 @@
     <link rel="stylesheet" href="style.css">
     <title>Adam</title>
 </head>
+
 <body>
     <header>
-        <div class="interface">
+        <div class="interface" id="inicio">
             <div class="logo">
                 <a href="">
-                    <img src="Images/adam.png" alt="Logo" width="100px">
+                    <img src="Images/adam.png" alt="Logo" width="250px">
                 </a>
             </div><!--Logo-->
             <nav class="menu-desktop">
                 <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Especialidade</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Projeto</a></li>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#especialidades">Especialidade</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#portifolio">Projetos</a></li>
                 </ul>
             </nav>
             <div class="btn-contato">
-                <a href="#"><button>Contato</button></a>
+                <a href="#formulario"><button>Contato</button></a>
             </div>
         </div><!--interface-->>
     </header>
@@ -40,78 +44,99 @@
             <div class="interface">
                 <div class="flex">
                     <div class="txt-topo-site">
-                        <h1>TRANSFORMANDO IDEIAS EM REALIDADE DIGITAL<span>.</span></h1>
-                        <p>Criatividade e inovação andam lado a lado. Com uma combinação única de design <br> 
-                           impactante, funcionalidade intuitiva e otimização para resultados, estou pronto para criar <br>
-                           a presença online dos seus sonhos.</p>
+                        <h1>Olá! Sou Adam Andrade, engenheiro de software formado pela UFC<span>!</span></h1>
+                        <p>"Ser engenheiro de software é como ser um alquimista moderno, misturando linhas de código com
+                            uma pitada de café e uma dose generosa de paciência para transformar bugs em funcionalidades
+                            mágicas!"</p>
                         <div class="btn-contato"><a href="#">
-                            <button>Entre em contato</button>
-                        </a></div>
+                                <a href="#formulario"><button>Entre em contato</button></a>
+                            </a></div>
                     </div><!--txt-topo-do-site-->
                     <div class="img-topo-site">
-                        <img src="Images/Adamf.jpeg" alt="" width="200px">
+                        <img src="Images/arre.png" alt="" width="200px">
                     </div><!--img-topo-do-site-->
                 </div><!--flex-->
             </div><!--interface-->
         </section><!--topo-do-site-->
-        <section class="especialidades">
+        <section class="especialidades" id="especialidades">
             <div class="interfaces">
                 <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
                 <div class="flex">
                     <div class="especialidades-box">
                         <i class="bi bi-journal-code"></i>
                         <h3>Analise de requisito</h3>
-                        <p>Esse projeto derivou da ideia do sorteador de letras. A finalidade deste site seria propriamente para o sorteio de números.</p>
+                        <p>Experiência com analise de requisitos em um pojeto de extenção da Universidade Federal do
+                            Ceará, um ano atuando como analista de requisitos em um projeto de inovação da FUNCAP, e 3
+                            meses coma analista de sistema no mercado.</p>
                     </div>
                     <div class="especialidades-box">
                         <i class="bi bi-braces"></i>
                         <h3>UX/UI</h3>
-                        <p>Esse projeto derivou da ideia do sorteador de letras. A finalidade deste site seria propriamente para o sorteio de números.</p>
+                        <p>Experiência com UX/UI desiner na universidade, utilizando a ferramenta figma. Um ano atuando
+                            como designer em um projeto de inovação da FUNCAP, e sempre atrás de fortalecer meus
+                            conhecimentos nessa área, fazendo cursos onlines.</p>
                     </div>
                     <div class="especialidades-box">
                         <i class="bi bi-code-square"></i>
                         <h3>Desenvolvimento</h3>
-                        <p>Esse projeto derivou da ideia do sorteador de letras. A finalidade deste site seria propriamente para o sorteio de números.</p>
+                        <p>Muito interessado na área de desenvolvimento, possuo conhecimentos em diversas linguagens de
+                            programação, tais como: C, Java e JavaScript. Além disso, tenho experiência em linguagem
+                            SQL, CSS, HTML e em utilizar Git/Github.</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="sobre">
+        <section class="sobre" id="sobre">
             <div class="interface">
                 <div class="flex">
                     <div class="txt-img-sobre">
-                        <img src="Images/Adamf.jpeg" alt="" width="200px">
+                        <img src="Images/Img2.png" alt="" width="150px">
                     </div>
                     <div class="txt-sobre">
                         <h2>MUITO PRAZER, <span>SOU ADAM ANDRADE</span></h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus quidem pariatur dolores nulla aut nesciunt nemo obcaecati commodi dolor, incidunt repudiandae minima tenetur voluptas ducimus soluta, totam, vero maxime iste!</p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro perferendis voluptates aspernatur error voluptatem officiis. Nisi, reiciendis eaque commodi animi dolores quo veritatis veniam, cupiditate minus qui in ipsam non!</p>
+                        <p>Graduado em Engenharia de Software pela Universidade Federal do Ceará. Ex participante do
+                            Projeto de Pesquisa e Extensão LearningLab (Laboratório de Ensino e Pesquisa de Tecnologias
+                            alinhadas à Gestão do Conhecimento e Inovação em Processos de Software) e do Projeto Projeto
+                            de Pesquisa e Extensão Atlética da UFC - campus de Russas.</p>
+                        <p>Tenho interesse nas áres da Engenharia de Software, sejam Melhoria de Processos, Qualidade de
+                            Software, Manutenção de Software, Verificação e Validação de Software e Desenvolvimento de
+                            Software.</p>
                         <div class="btn-social">
-                            <a href="#"><button><i class="bi bi-instagram"></i></button></a>
-                            <a href="#"><button><i class="bi bi-linkedin"></i></button></a>
-                            <a href="#"><button><i class="bi bi-facebook"></i></button></a>
+                            <a href="https://www.instagram.com/fcoadam/"><button><i
+                                        class="bi bi-instagram"></i></button></a>
+                            <a href="https://www.linkedin.com/in/adam-andrade-90aa881b5/"><button><i
+                                        class="bi bi-linkedin"></i></button></a>
+                            <a href="https://www.facebook.com/adam.andrade.3194"><button><i
+                                        class="bi bi-facebook"></i></button></a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="portifolio">
+        <section class="portifolio" id="portifolio">
             <div class="interface">
-                <h2 class="titulo">MEU <span>PORTFÓLIO</span></h2>
+                <h2 class="titulo">MEUS <span>PROJETOS</span></h2>
                 <div class="flex">
-                    <div class="img-post" style="background-image: url(Images/Apadrinhamento6.0.png);">
-                        <div class="overlay">Projeto 1</div>
+                    <div class="img-post" style="background-image: url(Images/Programa\ em\ c.jpeg);">
+                        <a href="https://github.com/Zanikoi/Trabalho_De_Logica">
+                            <div class="overlay">Aplicação em linguagem C</div>
+                        </a>
                     </div>
-                    <div class="img-post" style="background-image: url(Images/Apadrinhamento6.0.png);">
-                        <div class="overlay">Projeto 2</div>
+                    <div class="img-post" style="background-image: url(Images/Colletion\ point.png);">
+                        <a href="https://github.com/Zanikoi/Projeto-web">
+                            <div class="overlay">Sistema Colletion point</div>
+                        </a>
                     </div>
-                    <div class="img-post" style="background-image: url(Images/Apadrinhamento6.0.png);">
-                        <div class="overlay">Projeto 3</div>
+                    <div class="img-post" style="background-image: url(Images/Gooday.jpeg);">
+                        <a
+                            href="https://www.figma.com/proto/UAW4iWo4UxTS75j2kRGeg3/Gooday?type=design&node-id=103-125&t=bzmFbdzB69XMR2OM-1&scaling=scale-down&page-id=103%3A102&starting-point-node-id=103%3A103&mode=design">
+                            <div class="overlay">Gooday: protótipo de app mobile</div>
+                        </a>
                     </div>
                 </div><!--flex-->
             </div><!--interface-->
         </section><!--portifolio-->
-        <section class="formulario">
+        <section class="formulario" id="formulario">
             <div class="interface">
                 <h2 class="titulo">FALA <span>COMIGO.</span></h2>
                 <form action="envia.php" method="post">
@@ -132,16 +157,21 @@
                         <img src="Images/adam.png" alt="Logo" width="100px">
                     </div><!--logo-footer-->
                     <div class="btn-social">
-                        <a href="#"><button><i class="bi bi-instagram"></i></button></a>
-                        <a href="#"><button><i class="bi bi-linkedin"></i></button></a>
-                        <a href="#"><button><i class="bi bi-facebook"></i></button></a>
+                        <a href="https://www.instagram.com/fcoadam/"><button><i
+                                    class="bi bi-instagram"></i></button></a>
+                        <a href="https://www.linkedin.com/in/adam-andrade-90aa881b5/"><button><i
+                                    class="bi bi-linkedin"></i></button></a>
+                        <a href="https://www.facebook.com/adam.andrade.3194"><button><i
+                                    class="bi bi-facebook"></i></button></a>
                     </div>
                 </div>
             </div>
             <div class="line-footer boder">
-                <p><i class="bi bi-envelope-fill"></i><a href="mailto:adam.andrade.2002@gmail.com"> adam.andrade.2002@gmail.com</a></p>
+                <p><i class="bi bi-envelope-fill"></i><a href="mailto:adam.andrade.2002@gmail.com">
+                        adam.andrade.2002@gmail.com</a></p>
             </div><!--line-footer-->
         </div><!--interface-->
     </footer>
 </body>
+
 </html>
